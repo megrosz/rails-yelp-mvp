@@ -1,0 +1,7 @@
+<h1>hello I'm the index</h1>
+
+<% @restaurants.each do |restaurant| %>
+  <p><%= restaurant.name %></p>
+  <p><%= restaurant.address %></p>
+  <p><%= restaurant.category %></p>
+<% end %>
